@@ -4,6 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { RiShakeHandsLine } from "react-icons/ri";
 import { MdFileDownload } from "react-icons/md";
 import { MdArrowOutward } from "react-icons/md";
+import ahmed from "../../../public/images/monsur-ahmed-shanto.jpeg"
 
 const Banner = () => {
   let social = [
@@ -32,7 +33,7 @@ const Banner = () => {
           <div>
             <div className="w-full">
               <img
-                src="https://scontent.fdac41-2.fna.fbcdn.net/v/t39.30808-6/428701429_399313009412651_7021363013979176346_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=5EO3XnacVh8Q7kNvgG7dbcV&_nc_zt=23&_nc_ht=scontent.fdac41-2.fna&_nc_gid=AbkDTyswVbX_IpYGYFLbqXc&oh=00_AYCziteJOpU1arDoDN5H5ZFV48lNjaQqPrtVq4CuVVfpRg&oe=67532764"
+                src={ahmed}
                 alt="monsur-ahmed-shanto"
                 className="w-[65%] rounded-full mx-auto outline-[2px] outline-primary-color outline-dashed p-1"
               />
