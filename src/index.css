@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts - syne */
+@font-face {
+  font-family: "Syne Regular";
+  src: url("./assets/fonts/syne/Syne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Syne Medium";
+  src: url("./assets/fonts/syne/Syne-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Syne SemiBold";
+  src: url("./assets/fonts/syne/Syne-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Syne Bold";
+  src: url("./assets/fonts/syne/Syne-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Syne ExtraBold";
+  src: url("./assets/fonts/syne/Syne-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Syne ExtraBold";
+  src: url("./assets/fonts/syne/Syne-ExtraBold.ttf");
+}
+
+/* fonts - jost */
+
+@font-face {
+  font-family: "Jost Regular";
+  src: url("./assets/fonts/jost/Jost-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Jost Medium";
+  src: url("./assets/fonts/jost/Jost-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Jost SemiBold";
+  src: url("./assets/fonts/jost/Jost-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Jost Bold";
+  src: url("./assets/fonts/jost/Jost-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Jost ExtraBold";
+  src: url("./assets/fonts/jost/Jost-ExtraBold.ttf");
+}
+
+/* custom css */
+.text-stroke {
+  -webkit-text-stroke: 2px #00ab0c;
+  color: transparent;
+}
