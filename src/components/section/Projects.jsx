@@ -5,7 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Projects = () => {
   return (
-    <section id="project" className="bg-primary-bg pt-[120px]">
+    <section id="project" className="bg-primary-bg pt-[100px]">
       <div className="container">
         <div className="w-full text-center">
           <p className="font-syne-medium text-2xl text-primary-color">
@@ -17,7 +17,7 @@ const Projects = () => {
 
         <div className="mt-12">
           {projects.map((item, index) => (
-            <div key={index} className="mb-10">
+            <div key={index} className="mb-14">
               <ProjectListItem
                 key={index}
                 index={index}

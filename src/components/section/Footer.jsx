@@ -11,8 +11,11 @@ const Footer = () => {
           Rights Reserved.
         </p>
 
-        <a href="#banner" className="text-2xl font-jost-medium flex items-center gap-x-2">
-          Back To Top <IoMdArrowUp />
+        <a
+          href="#banner"
+          className="group text-2xl font-jost-medium flex items-center gap-x-2 hover:text-primary-color transition duration-200"
+        >
+          Back To Top <IoMdArrowUp/>
         </a>
       </div>
     </section>

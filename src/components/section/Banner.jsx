@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { RiShakeHandsLine } from "react-icons/ri";
 import { MdFileDownload } from "react-icons/md";
 import { MdArrowOutward } from "react-icons/md";
-import ahmed from "../../../public/images/monsur-ahmed-shanto.jpeg"
+import ahmed from "../../../public/images/monsur-ahmed-shanto.jpeg";
 
 const Banner = () => {
   let social = [
@@ -73,7 +73,7 @@ const Banner = () => {
             <p className="font-poppins text-xl mb-7">Hello There!</p>
 
             <h1 className="text-[52px] font-poppins font-bold leading-[64px] uppercase tracking-[0.6px] mb-5">
-              I'm{" "}
+              {/* I'm{" "}
               <span className="text-[#448c74]s text-stroke">
                 Monsur Ahmed Shanto
               </span>
@@ -81,7 +81,11 @@ const Banner = () => {
               <span className="text-strokes">Full-Stack Developer</span>,{" "}
               <span className="text-stroke">solving complex</span> problems with
               <span className="text-strokes"> elegant code</span> and{" "}
-              <span className="text-stroke">innovative design.</span>
+              <span className="text-stroke">innovative design.</span> */}
+
+              I'm a passionate <span className="text-strokes text-primary-color">full-stack (MERN) developer</span>, solving complex
+              problems with <span className="text-strokes text-primary-color">elegant code</span> and innovative design.
+              
             </h1>
 
             <div className="flex items-center gap-x-2.5">

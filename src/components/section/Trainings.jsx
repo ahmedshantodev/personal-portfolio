@@ -4,7 +4,7 @@ import cit from "../../../public/images/creativeit.png";
 const Trainings = () => {
   return (
     <section className="bg-primary-bg pt-[90px]">
-      <div className="container">
+      <div className="container bg-white py-[80px] px-16 rounded-[20px]">
         <div className="w-full text-center">
           <p className="font-syne-medium text-2xl text-primary-color">
             Trainings
@@ -15,18 +15,14 @@ const Trainings = () => {
           </h4>
         </div>
 
-        <div className="relative mx-auto mt-10 bg-white rounded-[20px] p-10 flex items-center justify-between gap-x-20 overflow-hidden">
-            <div className="absolute top-0 right-0 bg-[#60a5fa] text-white font-syne-medium text-xl py-3 px-5 rounded-bl-[12px]">
-                2023 - Present
-            </div>
+        <div className="relative mx-auto mt-10 bg-white rounded-[20px] p-10 flex items-center justify-between gap-x-20 overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
+          <div className="absolute top-0 right-0 bg-[#60a5fa] text-white font-syne-medium text-xl py-3 px-5 rounded-bl-[12px]">
+            2023 - Present
+          </div>
 
           <div className="w-[40%]">
             <div className="w-[400px] mx-auto">
-              <img
-                src={cit}
-                alt="creative-it-institute"
-                className="w-full"
-              />
+              <img src={cit} alt="creative-it-institute" className="w-full" />
             </div>
           </div>
 
