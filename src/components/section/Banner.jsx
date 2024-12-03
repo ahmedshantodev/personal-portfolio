@@ -28,14 +28,14 @@ const Banner = () => {
 
   return (
     <section id="home" className="bg-primary-bg w-full">
-      <div className="container flex gap-x-10 pt-[95px]">
+      <div className="container flex gap-x-10 pt-[65px]">
         <div className="w-[30%] bg-white pb-10 p-10 rounded-[20px] text-center flex items-center justify-center">
           <div>
             <div className="w-full">
               <img
                 src={ahmed}
                 alt="monsur-ahmed-shanto"
-                className="w-[70%] rounded-full mx-auto outline-[3px] outline-primary-color outline-dashed p-2"
+                className="w-[70%] aspect-square rounded-full mx-auto outline-[2px] outline-primary-color outline-dashed p-2"
               />
             </div>
 
