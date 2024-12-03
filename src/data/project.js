@@ -27,11 +27,9 @@ export const projects = [
     github: "https://github.com/ahmedshantodev/Ripple-ChattingApp",
     state: "complate",
   },
-
   {
     name: "Codding Academy Landing page",
-    description:
-      "Fulllstack social media website called 'ECHO Chat App'. I used React.js with TypeScript for empowering lightning-fast scalable web application.",
+    description: "Frontend design of a coding acamdey landing page. I used Aceternity UI, Tailwind Css, Next js and Typescript for empowering lightning-fast scalable frontend web application.",
     technologys: ["Aceternity UI", "Tailwind", "Next JS", "Typescript",],
     images: [homeSction, featuredCourseSction, seminerSction, mentorsSction, testimonialsSction],
     preview: "",
@@ -48,18 +46,5 @@ export const projects = [
     github: "https://github.com/ahmedshantodev/orebi-ecommarce",
     state: "complate",
   },
-  {
-    name: "Ripple - Chat Web App",
-    description:
-      "Fulllstack social media website called 'ECHO Chat App'. I used React.js with TypeScript for empowering lightning-fast scalable web application.",
-    technologys: ["Tailwind", "React JS", "Redux", "Firebase"],
-    images: [
-      "https://somor-mk.vercel.app/images/projects/echochat.jpg",
-      "https://somor-mk.vercel.app/images/projects/echochat.jpg",
-      "https://somor-mk.vercel.app/images/projects/echochat.jpg",
-      "https://somor-mk.vercel.app/images/projects/echochat.jpg",
-    ],
-    preview: "",
-    github: "",
-  },
+
 ];
