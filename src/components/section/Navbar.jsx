@@ -16,14 +16,14 @@ const Navbar = () => {
       link: "#projects",
     },
     {
-      name: "Connect",
+      name: "Connect Me",
       link: "#connect",
     },
   ];
 
   return (
     <section className="bg-primary-bg sticky top-0 left-0 right-0 z-50 shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
-      <div className="container py-4 flex items-center justify-between">
+      <div className="container py-5 flex items-center justify-between">
         <a href="#">
           <img
             src={ahmedLogo}
@@ -32,26 +32,13 @@ const Navbar = () => {
           />
         </a>
 
-        <ul className="flex items-center gap-x-10">
+        <ul className="flex items-center gap-x-12">
           {menu.map((item, index) => (
-            <li className="font-syne-medium text-xl capitalize">
+            <li className="font-syne-SemiBold text-2xl text-primary-color capitalize">
               <a href={item.link}>{item.name}</a>
             </li>
           ))}
         </ul>
-
-        <div className="flex items-center gap-x-10">
-          <a
-            href="#connect"
-            className="bg-transparent rounded-[40px] px-8 py-3 border-[3px] border-primary-color text-primary-color font-syne-regular text-xl font-semibold"
-          >
-            Let Talk!
-          </a>
-
-          {/* <button className="text-primary-color text-5xl">
-            <HiMenuAlt3 />
-          </button> */}
-        </div>
       </div>
     </section>
   );
