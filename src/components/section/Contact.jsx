@@ -5,8 +5,8 @@ import { IoMailOpenOutline } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <section id="connect" className="bg-primary-bg pt-[90px]">
-      <div className="container bg-white rounded-[20px] px-16 py-[80px]">
+    <section id="connect" className="bg-primary-bg pt-[100px]">
+      <div className="container bg-white rounded-[20px] px-16 py-[60px]">
         <div className="w-full text-center">
           <p className="font-syne-medium text-2xl text-primary-color">
             Contact
@@ -94,7 +94,7 @@ const Contact = () => {
               <textarea
                 name="message"
                 id="message"
-                placeholder="Enter your name"
+                placeholder="Enter your message"
                 className="w-full border border-[#e4e4e5] hover:border-gray-600 py-4 px-5 rounded-[12px] mt-2 outline-none bg-[#f9f9f9] text-lg font-jost-reguler resize-none h-[150px]"
               ></textarea>
             </div>

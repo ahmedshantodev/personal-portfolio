@@ -3,7 +3,7 @@ import cit from "../../../public/images/creativeit.png";
 
 const Trainings = () => {
   return (
-    <section className="bg-primary-bg pt-[90px]">
+    <section id="trainings" className="bg-primary-bg pt-[90px]">
       <div className="container bg-white py-[80px] px-16 rounded-[20px]">
         <div className="w-full text-center">
           <p className="font-syne-medium text-2xl text-primary-color">

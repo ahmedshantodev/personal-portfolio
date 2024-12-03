@@ -5,7 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Projects = () => {
   return (
-    <section id="project" className="bg-primary-bg pt-[100px]">
+    <section id="projects" className="bg-primary-bg pt-[100px]">
       <div className="container">
         <div className="w-full text-center">
           <p className="font-syne-medium text-2xl text-primary-color">

@@ -18,17 +18,17 @@ const Banner = () => {
     },
     {
       icon: FaXTwitter,
-      link: "https://www.facebook.com/ahmedshantodev",
+      link: "https://x.com/ahmedshantodev",
     },
     {
       icon: FaLinkedinIn,
-      link: "https://www.facebook.com/ahmedshantodev",
+      link: "https://www.linkedin.com/in/ahmedshantodev",
     },
   ];
 
   return (
-    <section id="banner" className="bg-primary-bg w-full">
-      <div className="container flex gap-x-10 pt-[150px]">
+    <section className="bg-primary-bg w-full">
+      <div className="container flex gap-x-10 pt-[95px]">
         <div className="w-[30%] bg-white pb-10 p-10 rounded-[20px] text-center flex items-center justify-center">
           <div>
             <div className="w-full">
@@ -45,7 +45,7 @@ const Banner = () => {
               </h1>
 
               <p className="font-poppins text-lg text-[#44444a] mt-2">
-                I am a Full Stack (MERN) Developer based in san Bangladesh.
+                I am a Full Stack (MERN) Developer based in Bangladesh.
               </p>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -61,9 +61,11 @@ const Banner = () => {
                 ))}
               </div>
 
-              <button className="bg-primary-color text-white font-syne-medium text-xl px-10 py-4 rounded-[12px] mt-10 flex items-center gap-x-2.5 mx-auto">
-                Hire Me <RiShakeHandsLine />
-              </button>
+              <a href="#connect">
+                <button className="bg-primary-color text-white font-syne-medium text-xl px-10 py-4 rounded-[12px] mt-10 flex items-center gap-x-2.5 mx-auto">
+                  Hire Me <RiShakeHandsLine />
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -72,20 +74,14 @@ const Banner = () => {
           <div className="bg-white pt-10 pb-10 px-10 rounded-[20px] mb-10">
             <p className="font-poppins text-xl mb-7">Hello There!</p>
 
-            <h1 className="text-[52px] font-poppins font-bold leading-[64px] uppercase tracking-[0.6px] mb-5">
-              {/* I'm{" "}
-              <span className="text-[#448c74]s text-stroke">
-                Monsur Ahmed Shanto
+            <h1 className="text-[52px] font-poppins font-bold leading-[65px] uppercase tracking-[0.6px] mb-5">
+              I'm a passionate{" "}
+              <span className="text-primary-color">
+                full-stack (MERN) developer
               </span>
-              , <br /> a{" "}
-              <span className="text-strokes">Full-Stack Developer</span>,{" "}
-              <span className="text-stroke">solving complex</span> problems with
-              <span className="text-strokes"> elegant code</span> and{" "}
-              <span className="text-stroke">innovative design.</span> */}
-
-              I'm a passionate <span className="text-strokes text-primary-color">full-stack (MERN) developer</span>, solving complex
-              problems with <span className="text-strokes text-primary-color">elegant code</span> and innovative design.
-              
+              , solving complex problems with{" "}
+              <span className="text-primary-color">elegant code</span> and
+              innovative design.
             </h1>
 
             <div className="flex items-center gap-x-2.5">
@@ -101,7 +97,7 @@ const Banner = () => {
               </button>
 
               <a
-                href="#project"
+                href="#projects"
                 className="bg-white border-2 border-primary-color text-primary-color font-poppins font-medium text-xl px-10 py-4 rounded-[12px] flex items-center gap-x-2.5"
               >
                 My Work <MdArrowOutward />
@@ -114,7 +110,7 @@ const Banner = () => {
             <div className="w-[100px] bg-red-400s h-full absolute top-0 right-0 bg-gradient-to-l from-white via-white to-transparent z-10" />
 
             <marquee>
-              <h4 className="text-[26px] font-poppins font-medium">
+              <h4 className="text-[26px] font-poppins font-medium -translate-x-[900px]">
                 Leverage the power of MERN to build robust, scalable web
                 applications. Outsource your development projects and get them
                 delivered efficiently, remotely, and on time. As a full-stack

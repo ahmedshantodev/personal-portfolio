@@ -15,12 +15,10 @@ import seminerSction from "../../public/images/project-images/coding-academy/sem
 import mentorsSction from "../../public/images/project-images/coding-academy/mentors.png";
 import testimonialsSction from "../../public/images/project-images/coding-academy/testimonials.png";
 
-
 export const projects = [
   {
     name: "Ripple - Chat Web App",
-    description:
-      "A modern chat app with real-time messaging, built with React, Redux, Tailwind CSS, and Firebase. Enjoy features like Google login, friend management, group chats, and rich media messaging for a seamless and enjoyable chat experience.",
+    description: "A modern chat app with real-time messaging, built with React, Redux, Tailwind CSS, and Firebase. Enjoy features like Google login, friend management, group chats, and rich media messaging for a seamless and enjoyable chat experience.",
     technologys: ["Tailwind", "React JS", "Redux", "Firebase"],
     images: [registrationPage, loginPage, messagePage, friendPage, groupPage],
     preview: "https://ripple-chatting-app.vercel.app/",
@@ -38,8 +36,7 @@ export const projects = [
   },
   {
     name: "Orebi - ecommarce",
-    description:
-      "Frontend design of a e-commerce website called 'Orebi E-commerce'. I used React.js for empowering lightning-fast scalable frontend web application.",
+    description: "Frontend design of a e-commerce website called 'Orebi E-commerce'. I used React.js for empowering lightning-fast scalable frontend web application.",
     technologys: ["Tailwind", "React JS"],
     images: [homePage, shopPage, paymentPage],
     preview: "https://orebi-ecommarce.vercel.app/",
